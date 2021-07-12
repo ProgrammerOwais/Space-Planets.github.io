@@ -1,0 +1,806 @@
+.body {
+    background-color:black;
+    overflow-x: hidden;
+}
+
+
+.header-line {
+    word-spacing: 1rem;
+
+}
+
+.nav-link {
+    font-size: 2vw;
+}
+
+hr{
+    margin: 5vh;
+    background-color: white;
+}
+
+.h1 {
+    font-size: 5vw;
+    font-weight: 700;
+    font-family: Mate SC;
+}
+
+
+.h2 {
+
+    font-size: 3vw;
+
+
+}
+
+.h3 {
+
+    font-size: 2.3vw;
+    text-transform: uppercase;
+}
+
+.h4 {
+
+    font-size: 1.7vw;
+}
+
+.para1 {
+    font-size: 1.5vw;
+    font-family: Playfair Display,sarif;
+}
+
+.para2 {
+    font-size: 1.5vw;
+    word-spacing: 0.6rem;
+}
+
+
+
+.bold{
+    font-weight:bolder;
+    font-size: 1.5vw;
+
+}
+
+.italic {
+    font-style: italic;
+
+}
+
+.underline {
+    border-bottom: 1px solid rgb(116, 116, 212);
+}
+
+
+
+/* Section1  space section*/
+
+.section1-img1 {
+    width: 100%;
+}
+
+
+.galaxy-heading1{
+    opacity: 0.5;
+}
+
+.space-img {
+    width: 100%;
+    max-width: 600px;
+}
+
+
+
+.image-fluid {
+    max-width: 1200px;
+}
+
+.section1-container1 {
+    max-width: 100%;
+    height: 450px;
+}
+
+.section1-container2 {
+    position: relative;
+    max-width: 100%;
+}
+
+
+.stars-container {
+    height: 80vh;
+    position: absolute;
+    top: 0vh;
+    left: 10%;
+    
+    
+}
+
+.section1-childs {
+    width: 8px;
+    height: 8px;
+    opacity: 0.8;
+    background-color:rgb(75, 209, 236);
+    border-radius: 50%;
+    box-shadow: 0.5px 0.5px 3px 0.5px rgb(75, 209, 236),
+                -0.5px -0.5px 3px 0.5px rgb(75, 209, 236);          ;
+    /* background-color:rgb(137, 170, 170);
+    background-color:lightblue; */
+
+}
+
+@keyframes star1 {
+
+    from {
+        left: 10%;
+        bottom: 5%;
+
+    }
+
+    to { 
+        opacity: 1;
+        bottom: 99.9%;   
+        box-shadow:0.1px 9px 10px 4px rgb(110, 238, 227);
+
+    }
+    
+}
+
+.section1-child1 {
+    animation-name: star1;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-delay: 5s;
+    animation-duration: 1s;
+    position: absolute;
+    left: 10%;
+    bottom: 5%;
+
+}
+
+
+@keyframes star2 {
+
+    from {
+        opacity: 0.8;
+        left: 20%;
+        bottom: 1%;
+
+    }
+
+    to { 
+        opacity: 1;
+        left: 10%;
+        bottom: 99.9%; 
+        box-shadow: 0.1px 9px 10px 4px rgb(110, 238, 227);
+
+    }
+    
+}
+
+.section1-child2 {
+    animation-name: star2;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-delay: 7s;
+    animation-duration: 1.5s;
+    position: absolute;
+    left: 20%;
+    bottom: 1%;
+
+}
+
+
+@keyframes star3 {
+
+    from {
+        left: 50%;
+        bottom: 10%;
+
+    }
+
+    to { 
+        opacity: 1;
+        left: 40%;
+        bottom: 99.9%;
+        box-shadow: 0.1px 9px 10px 4px rgb(110, 238, 227);
+
+    }
+    
+}
+
+
+.section1-child3 {
+    animation-name: star3;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-delay: 10s;
+    animation-duration: 3s;
+    position: absolute;
+    left: 50%;
+    bottom: 10%;
+
+}
+
+
+@keyframes star4 {
+
+    from {
+       left: 25%;
+       bottom: 8%;
+
+    }
+
+    to { 
+        opacity: 1;
+        left: 50%;
+        bottom: 99.9%;
+        box-shadow: 0.1px 9px 10px 4px rgb(110, 238, 227);
+
+    }
+    
+}
+
+.section1-child4 {
+    animation-name: star4;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-delay: 12s;
+    animation-duration: 3s;
+    position: absolute;
+    left: 25%;
+    bottom: 8%;
+
+}
+
+@keyframes star5 {
+
+    from {
+        opacity: 0.8;
+        left: 30%;
+        bottom: 3%;
+
+    }
+
+    to { 
+        opacity: 1;
+        left: 30%;
+        bottom: 99.9%;
+        box-shadow: 0.1px 9px 10px 4px rgb(110, 238, 227);
+
+    }
+    
+}
+
+
+.section1-child5 {
+    animation-name: star5;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-delay: 14s;
+    animation-duration: 3s;
+    position: absolute;
+    left: 30%;
+    bottom: 3%;
+
+}
+
+@keyframes star6 {
+
+    from {
+        left: 35%;
+        bottom: 6%;
+
+    }
+
+    to { 
+        opacity: 1;
+        left: 40%;
+        bottom: 99.9%;
+        box-shadow: 0.1px 9px 10px 4px rgb(110, 238, 227);
+
+    }
+    
+}
+
+
+.section1-child6 {
+    animation-name: star6;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-delay: 15s;
+    animation-duration: 2s;
+    position: absolute;
+    left: 35%;
+    bottom: 6%;
+
+}
+
+@keyframes star7 {
+
+    from {
+        left: 95%;
+        bottom: 5%;
+
+    }
+
+    to { 
+        opacity: 1;
+        left: 5%;
+        bottom: 99.9%;
+        box-shadow: 0.1px 9px 10px 4px rgb(110, 238, 227);
+
+    }
+    
+}
+
+.section1-child7 {
+    animation-name: star7;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-delay: 17s;
+    animation-duration: 2s;
+    position: absolute;
+    left: 95%;
+    bottom: 5%;
+
+}
+
+@keyframes star8 {
+
+    from {
+        opacity: 0.8;
+        left: 45%;
+        bottom: 12%;
+        box-shadow: none;
+
+    }
+
+    to { 
+        opacity: 1;
+        left: 50%;
+        bottom: 99.9%;
+        box-shadow: 0.1px 9px 10px 4px rgb(110, 238, 227);
+
+    }
+    
+}
+
+.section1-child8 {
+    animation-name: star8;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-delay: 19s;
+    animation-duration: 3s;
+    position: absolute;
+    left: 45%;
+    bottom: 12%;
+
+}
+
+@keyframes star9 {
+
+    from {
+       left: 0%;
+       bottom: 9%;
+
+    }
+
+    to { 
+        opacity: 1;
+        left: 95%;
+        bottom: 99.9%;
+        box-shadow: 0.1px 9px 10px 4px rgb(110, 238, 227);
+
+    }
+    
+}
+
+.section1-child9 {
+    animation-name: star9;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-delay: 23s;
+    animation-duration: 3s;
+    position: absolute;
+    left: 0%;
+    bottom: 9%;
+
+}
+
+@keyframes star10 {
+
+    from {
+        left: 55%;
+        bottom: 7%;
+        box-shadow: none;
+
+    }
+
+    to { 
+        opacity: 1;
+        left: 53%;
+        bottom: 99.9%;
+        box-shadow: 0.1px 9px 10px 4px rgb(110, 238, 227);
+
+    }
+    
+}
+
+.section1-child10 {
+    animation-name: star10;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-delay: 26s;
+    animation-duration: 2s;
+    position: absolute;
+    left: 55%;
+    bottom: 7%;
+
+}
+
+@keyframes star11 {
+
+    from {
+        left: 65%;
+        bottom: 13%;
+
+    }
+
+    to { 
+        opacity: 1;
+        left: 67%;
+        bottom: 99.9%;
+        box-shadow: 0.1px 9px 10px 4px rgb(110, 238, 227);
+
+    }
+    
+}
+
+.section1-child11 {
+    animation-name: star11;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-delay: 29s;
+    animation-duration: 3s;
+    position: absolute;
+    left: 65%;
+    bottom: 13%;
+
+}
+
+@keyframes star12 {
+
+    from {
+        left: 90%;
+        bottom: 15%;
+       box-shadow: none;
+
+    }
+
+    to { 
+        opacity: 1;
+        left: 0%;
+        bottom: 99.9%; 
+        box-shadow: 0.1px 9px 10px 4px rgb(110, 238, 227);
+
+    }
+    
+}
+
+.section1-child12 {
+    animation-name: star12;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-delay: 30s;
+    animation-duration: 2s;
+    position: absolute;
+    left: 90%;
+    bottom: 15%;
+
+}
+
+
+
+
+/* Planet section
+  Eath planet
+*********************/
+.head-img {
+    width: 100%;
+    max-width: 1400px;
+}
+
+.heading1 {
+    color: rgba(219, 187, 187, 0.733);
+    position: absolute;
+    left: 35%;
+    top: 35%;
+    font-size:10vw ;
+    font-weight: 800;
+    mix-blend-mode: screen;
+}
+
+
+.bgimg1 {
+    width: 95vw;
+    height: 95vh;
+    background-image: url('images/pl10.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 15vw 15vh;
+
+}
+
+.left-img{
+    width: 100%;
+    max-width: 600px;
+}
+
+.space1 {
+    font-size: 30px;
+    margin-bottom: 10em;
+}
+
+.space2 {
+    font-size: 10px;
+    margin-bottom: 10em;
+}
+
+.left-text {
+    font-size: 1vw;
+    letter-spacing: 0.15vw;
+}
+
+.planet-link {
+    max-width: 50px;
+    transition: transform 500ms;
+}
+
+.planet-link:hover,.planet-link:focus {
+    transform: scale(1.2);
+}
+/* Earth end ***************************/
+
+
+
+
+
+/*  Moon section 
+****************/
+
+
+
+.bgimg2 {
+    width: 95vw;
+    height: 95vh;
+    background-image: url('images/moon.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 15vw 15vh;
+
+}
+/* moon end ****************************/
+
+
+
+/* Mars section 
+****************/
+
+.mars-img {
+    width: 100%;
+    max-width: 800px;
+}
+
+
+.mars-right-img {
+    width: 100%;
+    max-width: 300px;
+}
+
+
+.gap {
+    height: 50vh;
+}
+.gap2 {
+    height: 10vh;
+}
+
+/* Background stars */
+@keyframes sprinkles {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 0.5;
+    }
+    
+}
+
+.bg-stars-container {
+    width: 100%;
+    position: absolute;
+    top: 90%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+
+.bg-stars {
+    position:relative;
+    background-color: transparent;
+    width: 40px;
+    height: 40px;
+    margin: 5rem auto;
+}
+
+.stars-row1 {
+
+    top: 120%;
+
+}
+
+.stars-row2 {
+
+    top: 150%;
+    
+}
+
+.stars-row3 {
+    
+    top: 170%;
+}
+
+.stars-row4 {
+
+    top: 200%;
+    
+}
+
+.stars-row5 {
+
+    top: 220%;
+    
+}
+
+.stars-row6 {
+
+    top: 250%;
+
+}
+.stars-row7 {
+
+    top: 270%;
+    
+}
+
+
+.box1 {
+    animation-name:sprinkles;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+    box-shadow: 0px 0.1px 0.2px 0.5px cyan;
+    width: 20px;
+    height: 2px;
+    position: absolute;
+    top: 70%;
+    left: 30%;
+    background-color: cyan;
+    border-radius: 50%;
+}
+
+.box2 {
+    animation-name:sprinkles;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+    box-shadow: 0px 0.1px 0.2px 0.5px cyan;
+    width: 2px;
+    height: 20px;
+    position: absolute;
+    top: 46.78%;
+    left: 53.4%;
+    border-radius: 50%;
+    background-color: cyan;
+    transform: rotate(45deg);
+}
+
+.box3 {
+    animation-name:sprinkles;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+    box-shadow: 0px 0.1px 0.2px 0.5px cyan;
+    width: 2px;
+    height: 20px;
+    position: absolute;
+    top: 46.6%;
+    left: 53.5%;
+    background-color: cyan;
+    border-radius: 50%;
+    transform: rotate(-45deg);
+}
+
+.box4 {
+    animation-name:sprinkles;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+    box-shadow: 0px 0.1px 0.2px 0.5px cyan;
+    width: 2px;
+    height: 20px;
+    position: absolute;
+    top: 46.8%;
+    left: 53.5%;
+    background-color: cyan;
+    border-radius: 50%;
+}
+
+@media (max-width:576px) {
+    
+    .bg-stars-container {
+        display: none;
+    }
+    .para2 {
+        font-size: 1.5vw;
+        word-spacing: 0.2rem;
+    }
+}
+
+@media (max-width:768px) {
+
+    .section1-childs {
+        display: none;
+    }
+
+}
+/* mars end ***********/
+
+
+/*jypiter 
+**********
+*********
+**********/
+.jupiterimg1 {
+    width: 100%;
+    max-width: 500px;
+}
+
+.orange-yellow {
+    color: #f5bd1f;
+}
+
+
+
+/* Venus planet
+***************/
+
+.venus-color {
+    color:rgb(250, 157, 35);
+}
+
+.venus-heading {
+    font-size: 8.5vw;
+}
+
+.venus-img {
+    width: 100%;
+    max-width: 220px;
+    float: right;
+}
+
+.uranus {
+    color: aqua;
+}
+
+
+
+
+
+
+
+
