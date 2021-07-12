@@ -4,10 +4,6 @@
 }
 
 
-.header-line {
-    word-spacing: 1rem;
-
-}
 
 .nav-link {
     font-size: 2vw;
@@ -16,49 +12,6 @@
 hr{
     margin: 5vh;
     background-color: white;
-}
-
-.h1 {
-    font-size: 5vw;
-    font-weight: 700;
-    font-family: Mate SC;
-}
-
-
-.h2 {
-
-    font-size: 3vw;
-
-
-}
-
-.h3 {
-
-    font-size: 2.3vw;
-    text-transform: uppercase;
-}
-
-.h4 {
-
-    font-size: 1.7vw;
-}
-
-.para1 {
-    font-size: 1.5vw;
-    font-family: Playfair Display,sarif;
-}
-
-.para2 {
-    font-size: 1.5vw;
-    word-spacing: 0.6rem;
-}
-
-
-
-.bold{
-    font-weight:bolder;
-    font-size: 1.5vw;
-
 }
 
 .italic {
@@ -514,7 +467,7 @@ hr{
     position: absolute;
     left: 35%;
     top: 35%;
-    font-size:10vw ;
+    font-size:8rem;;
     font-weight: 800;
     mix-blend-mode: screen;
 }
@@ -546,7 +499,7 @@ hr{
 }
 
 .left-text {
-    font-size: 1vw;
+    font-size: 0.8rem;
     letter-spacing: 0.15vw;
 }
 
@@ -746,7 +699,7 @@ hr{
         display: none;
     }
     .para2 {
-        font-size: 1.5vw;
+        font-size:1.3rem;
         word-spacing: 0.2rem;
     }
 }
@@ -784,7 +737,7 @@ hr{
 }
 
 .venus-heading {
-    font-size: 8.5vw;
+    font-size: 8rem;
 }
 
 .venus-img {
@@ -795,6 +748,207 @@ hr{
 
 .uranus {
     color: aqua;
+}
+
+/* Media queries for responsive text */
+
+@media (min-width:320px) {
+    /* Text area */
+    .top-para {
+        display: none;
+        font-size: 0.6rem;
+    }
+.h1 {
+    font-size:1.4rem;
+    font-weight: 700;
+    font-family: Mate SC;
+}
+.h2 {
+    padding-right: 5px;
+    font-size: 1.1rem;
+}
+
+.h3 {
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+.h4 {
+
+    font-size: 0.8rem;
+}
+.para1 {
+    font-size: 0.7rem;
+    font-family: Playfair Display,sarif;
+}
+.para2 {
+    font-size: 0.7rem;
+    word-spacing: 0.6rem;
+}
+.bold{
+    font-weight:bolder;
+    font-size: 0.7rem;
+}
+
+}
+
+
+@media (min-width:520px) {
+    /* Text area */
+    .top-para {
+        display: block;
+        font-size: 0.7rem;
+        word-spacing: 2px;
+    }
+    
+.h1 {
+    font-size:2.3rem;
+    font-weight: 700;
+    font-family: Mate SC;
+}
+.h2 {
+    font-size: 1.4rem;
+}
+
+.h3 {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+.h4 {
+
+    font-size: 1rem;
+}
+.para1 {
+    font-size: 0.9rem;
+    font-family: Playfair Display,sarif;
+}
+.para2 {
+    font-size: 0.9rem;
+    word-spacing: 0.6rem;
+}
+.bold{
+    font-weight:bolder;
+    font-size: 0.9rem;
+}
+
+}
+
+@media (min-width:768px) {
+    /* Text area */
+    .top-para {
+        font-size: 1rem;
+        word-spacing: 2px;
+    }
+    
+.h1 {
+    font-size:3rem;
+    font-weight: 700;
+    font-family: Mate SC;
+}
+.h2 {
+    font-size: 1.7rem;
+}
+
+.h3 {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+}
+.h4 {
+
+    font-size: 1.1rem;
+}
+.para1 {
+    font-size: 1rem;
+    font-family: Playfair Display,sarif;
+}
+.para2 {
+    font-size: 1rem;
+    word-spacing: 0.6rem;
+}
+.bold{
+    font-weight:bolder;
+    font-size: 1rem;
+}
+
+}
+
+
+@media (min-width:900px) {
+    /* Text area */
+    .top-para {
+        font-size: 1rem;
+        word-spacing: 3px;
+    }
+    
+.h1 {
+    font-size:3.7rem;
+    font-weight: 700;
+    font-family: Mate SC;
+}
+.h2 {
+    font-size: 2rem;
+}
+
+.h3 {
+    font-size: 1.7rem;
+    text-transform: uppercase;
+}
+.h4 {
+
+    font-size: 1.3rem;
+}
+.para1 {
+    font-size: 1.1rem;
+    font-family: Playfair Display,sarif;
+}
+.para2 {
+    font-size: 1.1rem;
+    word-spacing: 0.6rem;
+}
+.bold{
+    font-weight:bolder;
+    font-size: 1.1rem;
+}
+
+}
+
+
+@media (min-width:1200px) {
+    /* Text area */
+    .top-para {
+        font-size: 1.4rem;
+        word-spacing: 10px;
+    }
+    
+.h1 {
+    font-size:5rem;
+    font-weight: 700;
+    font-family: Mate SC;
+}
+.h2 {
+    font-size: 2.5rem;
+}
+
+.h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+.h4 {
+
+    font-size: 1.5rem;
+}
+.para1 {
+    font-size: 1.3rem;
+    font-family: Playfair Display,sarif;
+}
+.para2 {
+    font-size: 1.3rem;
+    word-spacing: 0.6rem;
+}
+.bold{
+    font-weight:bolder;
+    font-size: 1.3rem;
+}
+
 }
 
 
