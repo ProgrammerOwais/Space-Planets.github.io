@@ -31,4 +31,4 @@ The web consists of six pages. Every page is responsive with beautiful layout.
 
 # Html , bootstrap , CSS3:
 
-Mostly this project is consist of html , bootstrap and css.
+This project  uses  html , bootstrap and css.
